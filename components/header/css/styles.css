@@ -1,0 +1,6 @@
+.container {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  background: rgb(238, 238, 238);
+  padding: 1em;
+}

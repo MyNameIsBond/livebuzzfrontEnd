@@ -1,0 +1,9 @@
+.container {
+  background: rgb(250, 250, 250);
+  padding: 1em;
+}
+
+.btn {
+  width: 100%;
+  margin: 0.5em;
+}
