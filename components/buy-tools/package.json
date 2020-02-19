@@ -21,9 +21,9 @@
     }
   },
   "devDependencies": {
-    "oc-template-react-compiler": "^5.1.10"
+    "oc-template-react-compiler": "^5.2.0"
   },
   "dependencies": {
-    "office-ui-fabric-react": "^7.90.0"
+    "@material-ui/core": "^4.9.3"
   }
 }
