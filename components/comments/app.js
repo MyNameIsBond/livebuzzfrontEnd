@@ -44,23 +44,6 @@ const App = props => {
         address_note: 'Earlsdon St 86'
       }
     }
-    fetch(
-      'https://prod-31.uksouth.logic.azure.com:443/workflows/13ac2ac87d3e4ea3aabe8d6c6b5981cf/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=_NuQ-zY3Uu-JQYASlcIGFfqpA-dNTSFIUQMo20HCM8M',
-      {
-        method: 'POST', // or 'PUT'
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(body2)
-      }
-    )
-      .then(response => response.json(response))
-      .then(data => {
-        console.log('Success:', data)
-      })
-      .catch(error => {
-        console.error('Error:', error)
-      })
   }
 
   return (

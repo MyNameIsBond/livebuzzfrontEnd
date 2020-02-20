@@ -1,5 +1,5 @@
 {
-  "name": "navbar",
+  "name": "registerevent",
   "description": "",
   "version": "1.0.0",
   "oc": {
@@ -22,5 +22,12 @@
   },
   "devDependencies": {
     "oc-template-react-compiler": "5.2.0"
+  },
+  "dependencies": {
+    "clsx": "^1.1.0",
+    "final-form": "^4.18.7",
+    "isemail": "^3.2.0",
+    "prop-types": "^15.7.2",
+    "react-final-form": "^6.3.5"
   }
 }

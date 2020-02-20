@@ -1,0 +1,30 @@
+{
+  "name": "testbar",
+  "description": "",
+  "version": "1.0.0",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "app.js",
+        "type": "oc-template-react"
+      }
+    },
+    "parameters": {
+      "name": {
+        "default": "World",
+        "description": "Tony",
+        "example": "Jane Doe",
+        "mandatory": false,
+        "type": "string"
+      }
+    }
+  },
+  "devDependencies": {
+    "oc-template-react-compiler": "5.2.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.3",
+    "@material-ui/icons": "^4.9.1"
+  }
+}
