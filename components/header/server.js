@@ -2,7 +2,7 @@ export const data = (context, callback) => {
   const { name } = context.params;
   const { staticPath } = context;
 
-  callback(null, {
+  callback(null , {
     name,
     staticPath
   });
